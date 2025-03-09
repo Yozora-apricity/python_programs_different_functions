@@ -11,12 +11,13 @@ num9 = int(input("Enter number 9: "))
 num10 = int(input("Enter number 10: "))
 
 # Check if the number is odd
+odd_num = 0
 if num1 % 2 != 0:
     odd_num +=1
 if num2 % 2 != 0:
     odd_num +=1
 if num3 % 2 != 0:
-    odd_num = +=1
+    odd_num +=1
 if num4 % 2 != 0:
     odd_num +=1
 if num5 % 2 != 0:
