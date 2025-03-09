@@ -10,4 +10,27 @@ num8 = int(input("Enter number 8: "))
 num9 = int(input("Enter number 9: "))
 num10 = int(input("Enter number 10: "))
 
-# Print how many are odd numbers
+# Check if the number is odd
+if num1 % 2 != 0:
+    odd_num +=1
+if num2 % 2 != 0:
+    odd_num +=1
+if num3 % 2 != 0:
+    odd_num = +=1
+if num4 % 2 != 0:
+    odd_num +=1
+if num5 % 2 != 0:
+    odd_num +=1
+if num6 % 2 != 0:
+    odd_num +=1
+if num7 % 2 != 0:
+    odd_num +=1
+if num8 % 2 != 0:
+    odd_num +=1
+if num9 % 2 != 0:
+    odd_num +=1
+if num10 % 2 != 0:
+    odd_num +=1
+    
+# Print the number of odd numbers
+print("The number of odd numbers is: ", odd_num)
