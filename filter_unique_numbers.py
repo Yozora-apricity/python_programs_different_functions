@@ -13,7 +13,7 @@ num10 = int(input("Enter tenth number: "))
 #2. Store the numbers in a list
 numbers = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10]
 
-unique_numbers = [] * 10
+unique_numbers = [""] * 10
 
 for num in numbers:
     if num not in unique_numbers:
