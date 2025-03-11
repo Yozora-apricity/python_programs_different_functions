@@ -1,0 +1,1 @@
+# 1. Ask user to input 10 numbers
