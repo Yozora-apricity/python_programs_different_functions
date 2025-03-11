@@ -13,17 +13,17 @@ num10 = int(input("Enter tenth number: "))
 #2. Store the numbers in a list
 numbers = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10]
 
-a = [] * 10
+unique_numbers = [] * 10
 
-for num in a:
-    if num not in a:
+for num in unique_numbers:
+    if num not in unique_numbers:
         for i in range(10):
-            if a[i] == "":
-                a[i] = num
+            if unique_numbers[i] == "":
+                unique_numbers[i] = num
                 break
             
 #3. Print the duplicate numbers
 print("Numbers without duplicates: ")
-for num in a:
+for num in unique_numbers:
     if num != "":
         print(num)
