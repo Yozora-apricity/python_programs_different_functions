@@ -20,5 +20,5 @@ for num in range:
     count [num] = count.get(num, 0) + 1
 
 for num in numbers:
-    if count[num] = 1:
+    if count[num] == 1:
         print (num)
