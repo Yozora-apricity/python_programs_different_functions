@@ -10,24 +10,12 @@ num8 = int(input("Enter eighth number: "))
 num9 = int(input("Enter ninth number: "))
 num10 = int(input("Enter tenth number: "))
 
-#2. check if the inputted numbers are the same
-if num1 != num2 != num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num1)
-elif num1 != num2 == num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num2)
-elif num1 != num2 == num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num3)
-elif num1 != num2 == num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num4)
-elif num1 != num2 == num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num5)
-elif num1 != num2 == num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num6)
-elif num1 != num2 == num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num7)
-elif num1 != num2 == num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num8)
-elif num1 != num2 == num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num9)
-elif num1 != num2 == num3 != num4 != num5 != num6 != num7 != num8 != num9 != num10:
-    print(num10)
+#2. Create a list
+numbers = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10]
+
+#3. Check for duplicates
+count = {}
+
+for num in range:
+    count [num] = count.get(num, 0) + 1
+    
