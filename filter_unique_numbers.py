@@ -21,3 +21,9 @@ for num in a:
             if a[i] == "":
                 a[i] = num
                 break
+            
+#3. Print the duplicate numbers
+print("Numbers without duplicates: ")
+for num in a:
+    if num != "":
+        print(num)
