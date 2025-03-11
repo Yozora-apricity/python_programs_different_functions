@@ -13,7 +13,7 @@ num10 = int(input("Enter tenth number: "))
 #2. Store the numbers in a list
 numbers = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10]
 
-a = []
+a = [] * 10
 
 for num in a:
     if num not in a:
