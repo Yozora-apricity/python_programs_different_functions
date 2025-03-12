@@ -15,3 +15,18 @@ def find_duplicates():
     numbers = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10]
     duplicate = []
     seen = []
+    
+    # Added for function to check for duplicates
+    for num in numbers:
+        if num in seen:
+            if num not in duplicate:
+                duplicate = duplicate + [num]
+        else:
+            seen = seen + [num]
+    
+    if duplicate:
+        print("Duplicate numbers:", *duplicate)
+    else:
+        print("No duplicates found.")
+
+find_duplicates()
