@@ -8,16 +8,18 @@ def find_lowest_numbers():
     lowest = None
     
 while True:
-try:
-    num = int(input("Enter a number: "))
+    try:
+        num = int(input("Enter a number: "))
         
-if lowest is None or num < lowest:
+    if lowest is None or num < lowest:
         lowest = num
     
-except ValueError:
-break
+    except ValueError:
+    break
 
-if lowest is None:
+    if lowest is None:
     print("The lowest number entered was: {lowest}")
-else:
+    else:
     print("No valid numbers were entered.")
+    
+find_lowest_numbers()
