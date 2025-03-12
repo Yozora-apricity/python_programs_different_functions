@@ -3,13 +3,13 @@
 #Display number
 
 while True:
-try:
+    try:
         
         num = int(input("Enter a number: "))
         numbers += [num]
         
-except ValueError:
-    break
+    except ValueError:
+        break
     
 numbers.sort()
 
