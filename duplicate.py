@@ -9,3 +9,9 @@ num7 = int(input("Enter the seventh number: "))
 num8 = int(input("Enter the eighth number: "))
 num9 = int(input("Enter the ninth number: "))
 num10 = int(input("Enter the tenth number: "))
+
+# Created a def function list
+def find_duplicates():
+    numbers = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10]
+    duplicate = []
+    seen = []
