@@ -24,4 +24,10 @@ def most_frequent():
             highest_count = freq[num]
             most_common = num
             
-            
+    # Print the result  
+    if most_common is not None:
+        print("Most frequent number:", most_common)
+    else:
+        print("No numbers entered.")
+
+most_frequent()
