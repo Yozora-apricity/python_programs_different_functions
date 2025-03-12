@@ -1,16 +1,13 @@
 # Ask user to input a number
-# Sort the number
-#Display number
-
 while True:
     try:
-        
-        num = int(input("Enter a number: "))
-        numbers += [num]
-        
+        user_number = int(input("Enter a number: "))
+        numbers = numbers + [user_number]   
     except ValueError:
         break
-    
-numbers.sort()
 
-print(numbers)
+# Sort the list number
+numbers.sort(reverse=True)
+
+# Display number
+print("Sorted numbers (highest to lowest):", numbers)
